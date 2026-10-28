@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "name": "invoice-coding-eval",
   "version": "1.0",
   "satisfies": "invoice-coding-eval@1.0",
@@ -7,8 +7,8 @@
     "LICENSE",
     "SHA256SUMS",
     "chart/cost-codes.md",
-    "roles/ap-coder.json",
-    "roles/ap-coder.md",
+    "eval/roles/ap-coder.json",
+    "eval/roles/ap-coder.md",
     "eval/answer-key.json",
     "eval/grade.py",
     "evals/invoice-coding.json",

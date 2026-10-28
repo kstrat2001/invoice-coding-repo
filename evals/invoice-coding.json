@@ -4,8 +4,8 @@
   "description": "The model is handed Copperleaf Cycle Works' cost-code chart (34 codes), its coding policy and a batch of 50 synthetic vendor invoices as one text, and replies with one JSON object giving each invoice one cost code. 4 batches, generated once by tools/generate.py (seed 20261028) and committed with their hashes. No tools.",
   "role": "ap-coder",
   "role_sha256": {
-    "roles/ap-coder.json": "de44de2f572b440887324999a787cba12a406653b1713c1e6ad5f32173684920",
-    "roles/ap-coder.md": "6957b06c890bf7a079a78298850b3bdbbfe077238c70f20e1d61924a33d18299"
+    "eval/roles/ap-coder.json": "de44de2f572b440887324999a787cba12a406653b1713c1e6ad5f32173684920",
+    "eval/roles/ap-coder.md": "6957b06c890bf7a079a78298850b3bdbbfe077238c70f20e1d61924a33d18299"
   },
   "cases": [
     {
