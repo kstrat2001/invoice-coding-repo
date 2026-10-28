@@ -5,7 +5,7 @@
   "role": "ap-coder",
   "role_sha256": {
     "roles/ap-coder.json": "de44de2f572b440887324999a787cba12a406653b1713c1e6ad5f32173684920",
-    "roles/ap-coder.md": "e2ca185ffe259d3d5e47d86cc7fdb5e844dd81a9fb2814e1428ac25857a0a62e"
+    "roles/ap-coder.md": "6957b06c890bf7a079a78298850b3bdbbfe077238c70f20e1d61924a33d18299"
   },
   "input": "inputs/october.txt",
   "input_sha256": "19ff1a2de2df14f3bc2d65ac8dfa498943a32be2bb505917d9965b60583c65b8",
