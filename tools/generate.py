@@ -641,7 +641,7 @@ def main() -> None:
             f"cost code. {BATCHES} batches, generated once by tools/generate.py (seed {SEED}) and committed with their hashes. No tools."
         ),
         "role": ROLE,
-        "role_sha256": {f"roles/{ROLE}.{ext}": sha256(ROOT / "roles" / f"{ROLE}.{ext}") for ext in ("json", "md")},
+        "role_sha256": {f"eval/roles/{ROLE}.{ext}": sha256(ROOT / "eval" / "roles" / f"{ROLE}.{ext}") for ext in ("json", "md")},
         "cases": manifest_cases,
         "reply_room": "context: the run's context window (the profile's n_ctx) minus the prompt. Context is the run's configuration, recorded with it, not part of the eval.",
         "pass": "a batch passes when every invoice gets the code in eval/answer-key.json; fields correct out of the batch's invoices are recorded beside the verdict and are the score. eval/grade.py is the stdlib reference and also breaks misses down by policy rule.",
