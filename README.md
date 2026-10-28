@@ -5,8 +5,8 @@ cost-code chart, its coding policy and a batch of 50 vendor invoices, and
 replies with one JSON object that gives each invoice one cost code. The reply
 is graded exactly against an answer key.
 
-The business, Copperleaf Cycle Works, a bike shop, is invented, and so are its
-vendors and every invoice. Nothing here is real financial data.
+The business, a bike shop called Copperleaf Cycle Works, is invented, as are
+its vendors and every invoice. Nothing here is real financial data.
 
 ## At a glance
 
@@ -26,9 +26,9 @@ The eval's page on evals.darkmux.com names the approved commit.
 Each batch is one text, `inputs/batch-NN.txt`: the chart and policy from
 `chart/cost-codes.md` (34 cost codes and 8 coding rules), then 50 invoices,
 each starting with `=== INVOICE <number> ===`. The model runs as the eval's own
-`ap-coder` role (`eval/roles/`, pinned by `role_sha256` in
-`evals/invoice-coding.json`), which asks for a flat JSON object mapping each
-invoice number to its four-digit code.
+`ap-coder` role, whose instructions ask for a flat JSON object mapping each
+invoice number to its four-digit code. The role lives in `eval/roles/` and is
+pinned by `role_sha256` in `evals/invoice-coding.json`.
 
 The invoices are written to test the policy, not only the chart: a vendor that
 sells something other than what it usually sells, equipment priced either side
@@ -64,9 +64,9 @@ darkmux run inspect <run id>       # the verdict, time and turns
 ```
 
 Run the other batches the same way. A model may reply until its context window
-is full: the reply room is the profile's context window less the prompt, and
-both are recorded with the run, since context is the machine's configuration,
-not the eval's.
+is full. The room for the reply is the profile's context window less the
+prompt; both are recorded with the run, because context is part of the
+machine's configuration, not the eval's.
 
 Leave the checkout unchanged: a run from any other commit, or from a checkout
 with changes in it, cannot be shared. To share runs on evals.darkmux.com, run
@@ -88,9 +88,9 @@ misses down by policy rule.
 ## The eval is defined here
 
 This repository defines the whole eval: `eval/` holds the workloads, the
-answer key, the reference grader and the role. darkmux processes the eval and
-does not define it, and runs report the sha256 of the workload document and
-role files they used.
+answer key, the reference grader and the role. darkmux processes the eval; it
+does not define it. Each run reports the sha256 of the workload document and
+role files it used.
 
 ## License
 
