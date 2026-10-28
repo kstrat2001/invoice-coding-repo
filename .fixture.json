@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.1",
+  "name": "invoice-coding-eval",
+  "version": "1.0",
+  "satisfies": "invoice-coding-eval@1.0",
+  "required_files": [
+    "LICENSE",
+    "SHA256SUMS",
+    "chart/cost-codes.md",
+    "invoices/BW-88213.md",
+    "invoices/RWE-2026-0417.md",
+    "invoices/BW-88390.md",
+    "invoices/SPL-55102.md",
+    "invoices/TLP-1107.md",
+    "inputs/october.txt",
+    "evals/october.json",
+    "roles/ap-coder.json",
+    "roles/ap-coder.md",
+    "eval/expected.json",
+    "eval/grade.py",
+    "eval/workloads/invoice-coding-october.json"
+  ],
+  "eval_dir": "eval"
+}

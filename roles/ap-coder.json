@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "id": "ap-coder",
+  "role_family": "specialist",
+  "description": "Tool-less accounts payable coder: is handed a business's cost-code chart, its coding policy and a batch of vendor invoices as plain text, and replies with one JSON object that gives each invoice exactly one cost code from the chart.",
+  "skills": [],
+  "tool_palette": {
+    "allow": [],
+    "deny": ["read", "write", "edit", "exec", "process", "update_plan"]
+  },
+  "escalation_contract": "bail-with-explanation",
+  "output_schema": {
+    "type": "object",
+    "additionalProperties": { "type": "string", "pattern": "^[0-9]{4}$" }
+  }
+}

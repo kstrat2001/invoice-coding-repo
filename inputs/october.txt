@@ -1,0 +1,170 @@
+# Copperleaf Cycle Works: cost codes and coding policy
+
+Accounts payable codes every vendor invoice to one cost code before it is
+paid. Use only the codes below.
+
+## Cost codes
+
+| Code | Name | Use it for |
+| --- | --- | --- |
+| 1300 | Deposits | Refundable deposits we pay, such as a lease security deposit |
+| 1400 | Prepaid expenses | Expenses paid more than 3 months before the period they cover (see rule 4) |
+| 1500 | Shop equipment | Equipment we keep and use, when a single item costs $2,500.00 or more |
+| 5100 | Parts and accessories for resale | Parts, tires, tubes and accessories bought to sell or to fit on customers' bikes |
+| 6100 | Rent | Rent for the shop and storage space |
+| 6150 | Equipment rental | Renting equipment we do not own |
+| 6200 | Utilities | Power, water, gas, internet and phone |
+| 6300 | Software and subscriptions | Software, apps and online services, however they are billed |
+| 6400 | Repairs and maintenance | Repairing the building or the equipment we own |
+| 6450 | Small tools | Tools and equipment we keep and use, when a single item costs less than $2,500.00 |
+| 6500 | Office supplies | Paper, printer ink, stationery and other office consumables |
+| 6550 | Shipping and postage | Shipping we pay to send goods to customers |
+| 6600 | Advertising and marketing | Ads, printing for promotions, sponsorships |
+| 6700 | Professional fees | Accounting, legal and consulting services |
+| 6800 | Insurance | Insurance premiums for the period they cover |
+
+## Coding policy
+
+1. Code what was bought, not who sold it. A vendor we usually buy one kind of
+   thing from can send an invoice for something else.
+2. Equipment we keep and use is 1500 when a single item costs $2,500.00 or
+   more, and 6450 when it costs less. Use the item's own price, before tax and
+   shipping.
+3. Freight, shipping and handling charged on a purchase are part of what was
+   bought: code them with the goods, never to 6550. 6550 is only for shipping we
+   pay to send goods to customers.
+4. An expense paid more than 3 months before the period it covers is 1400.
+   Software and subscriptions are the exception: they are always 6300, however
+   far ahead they are billed.
+5. A refundable deposit is 1300, whoever it is paid to. It is not rent and not
+   an expense.
+6. Each invoice gets exactly one code. Every invoice in this batch has lines of
+   only one kind, so one code always fits the whole invoice.
+
+# Invoices to code
+
+There are 5 invoices in this batch.
+
+=== INVOICE BW-88213 ===
+
+# INVOICE
+
+**Bellwether Bike Supply**
+2209 Foundry Street, Kessel Point, OR 97998
+(541) 555-0187 · orders@bellwether-bike.example
+
+| Invoice no. | Invoice date | Due date | Customer no. |
+| --- | --- | --- | --- |
+| BW-88213 | October 6, 2026 | November 5, 2026 | C-1142 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Qty | Item | Description | Unit price | Amount |
+| --- | --- | --- | --- | --- |
+| 1 | WS-PRO-38 | Professional workshop tool kit, 38 pieces, in roll-out case | $389.00 | $389.00 |
+| 2 | CWG-3 | Chain wear gauge, 0.5 / 0.75 / 1.0 | $18.50 | $37.00 |
+| 1 | TQ-525 | Torque wrench, 2–14 Nm, with bit set | $54.00 | $54.00 |
+
+| | |
+| --- | --- |
+| Subtotal | $480.00 |
+| Sales tax | $0.00 |
+| **Total due** | **$480.00** |
+
+Terms: Net 30. Thank you for your business.
+
+=== INVOICE RWE-2026-0417 ===
+
+# Ridgeline Workshop Equipment
+
+4410 Millrace Avenue, Suite 12, Corvale, WA 98999 · (360) 555-0163 · billing@ridgeline-wse.example
+
+**INVOICE RWE-2026-0417**
+Date: October 9, 2026
+Payment terms: Due on receipt
+
+Sold to:
+Copperleaf Cycle Works
+418 Tannery Row, Unit B
+Marrow Falls, OR 97999
+
+| Line | Description | Qty | Unit price | Line total |
+| --- | --- | --- | --- | --- |
+| 1 | TS-9000 professional wheel truing stand, floor mount, with dishing gauge and tension meter | 1 | $3,200.00 | $3,200.00 |
+| 2 | Freight, curbside delivery | 1 | $85.00 | $85.00 |
+
+Subtotal: $3,285.00
+Tax: $0.00
+**Amount due: $3,285.00**
+
+Serial no. TS9-26-00418. Two-year warranty registered to the buyer.
+
+=== INVOICE BW-88390 ===
+
+# INVOICE
+
+**Bellwether Bike Supply**
+2209 Foundry Street, Kessel Point, OR 97998
+(541) 555-0187 · orders@bellwether-bike.example
+
+| Invoice no. | Invoice date | Due date | Customer no. |
+| --- | --- | --- | --- |
+| BW-88390 | October 14, 2026 | November 13, 2026 | C-1142 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Qty | Item | Description | Unit price | Amount |
+| --- | --- | --- | --- | --- |
+| 40 | TB-700-35 | Inner tube 700x28–35c, 48 mm presta valve | $5.10 | $204.00 |
+| 24 | TR-GRV-40 | Gravel tire 700x40c, tubeless ready | $31.25 | $750.00 |
+| 12 | BP-DSC-RS | Disc brake pads, resin, road/gravel | $9.85 | $118.20 |
+| 10 | CH-11S | 11-speed chain, 116 links | $11.20 | $112.00 |
+| 1 | FRT | Freight: 3 cartons, ground | $62.40 | $62.40 |
+
+| | |
+| --- | --- |
+| Subtotal | $1,246.60 |
+| Sales tax | $0.00 |
+| **Total due** | **$1,246.60** |
+
+Terms: Net 30. Resale certificate on file.
+
+=== INVOICE SPL-55102 ===
+
+# Spokeline
+
+Spokeline Software, Inc. · 88 Harrow Lane, Bramwick, CA 94999 · accounts@spokeline.example
+
+## Invoice SPL-55102
+
+- Invoice date: October 20, 2026
+- Account: Copperleaf Cycle Works (acct. 30-4471)
+- Billing period: January 1, 2027 – December 31, 2027
+- Payment: charged to card ending 0142 on November 1, 2026
+
+| Description | Period | Amount |
+| --- | --- | --- |
+| Spokeline Shop Pro: point of sale, service tickets and inventory, 2 seats, annual plan | Jan 1 – Dec 31, 2027 | $1,140.00 |
+
+**Total: $1,140.00**
+
+Your annual plan renews automatically. Manage your plan at spokeline.example/account.
+
+=== INVOICE TLP-1107 ===
+
+# Tallow Lane Properties
+
+Property management · 1250 Ash Court, Marrow Falls, OR 97999 · (541) 555-0129
+
+**Invoice TLP-1107**
+Date: October 27, 2026
+Tenant: Copperleaf Cycle Works
+Premises: 418 Tannery Row, Unit C (storage), lease beginning December 1, 2026
+
+| Description | Amount |
+| --- | --- |
+| Security deposit for Unit C, refundable at the end of the lease less any damage, per lease section 4 | $1,500.00 |
+
+**Total due before key handover: $1,500.00**
+
+Rent for Unit C ($375.00 a month) will be billed on your regular monthly statement from December 1, 2026.

@@ -1,0 +1,14 @@
+{
+  "id": "invoice-coding-october",
+  "satisfies": "invoice-coding-october@1.0",
+  "description": "The model is handed Copperleaf Cycle Works' cost-code chart, its coding policy and five vendor invoices as one text (assembled once by tools/build.py and committed with its hash) and replies with one JSON object giving each invoice one cost code. No tools.",
+  "role": "ap-coder",
+  "role_sha256": {
+    "roles/ap-coder.json": "de44de2f572b440887324999a787cba12a406653b1713c1e6ad5f32173684920",
+    "roles/ap-coder.md": "e2ca185ffe259d3d5e47d86cc7fdb5e844dd81a9fb2814e1428ac25857a0a62e"
+  },
+  "input": "inputs/october.txt",
+  "input_sha256": "19ff1a2de2df14f3bc2d65ac8dfa498943a32be2bb505917d9965b60583c65b8",
+  "reply_room": "context: the run's context window (the profile's n_ctx) minus the prompt. Context is the run's configuration, recorded with it, not part of the eval.",
+  "pass": "every invoice gets the code in eval/expected.json (the lab workload in eval/workloads/ carries the same rule, generated from it; eval/grade.py is the stdlib reference). Fields correct out of five are recorded beside the verdict."
+}
