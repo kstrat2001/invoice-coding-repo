@@ -1,0 +1,38 @@
+{
+  "id": "invoice-coding",
+  "satisfies": "invoice-coding@1.0",
+  "description": "The model is handed Copperleaf Cycle Works' cost-code chart (34 codes), its coding policy and a batch of 50 synthetic vendor invoices as one text, and replies with one JSON object giving each invoice one cost code. 4 batches, generated once by tools/generate.py (seed 20261028) and committed with their hashes. No tools.",
+  "role": "ap-coder",
+  "role_sha256": {
+    "roles/ap-coder.json": "de44de2f572b440887324999a787cba12a406653b1713c1e6ad5f32173684920",
+    "roles/ap-coder.md": "6957b06c890bf7a079a78298850b3bdbbfe077238c70f20e1d61924a33d18299"
+  },
+  "cases": [
+    {
+      "id": "batch-01",
+      "input": "inputs/batch-01.txt",
+      "input_sha256": "00bfb3b5ccefb4908d8102c20713288031e212490e0dc4b025079ff763f60e43",
+      "invoices": 50
+    },
+    {
+      "id": "batch-02",
+      "input": "inputs/batch-02.txt",
+      "input_sha256": "d76cad248ac8c69e53c2d82351762bb3be5c6dedc713d30a1270ff1dfe94e322",
+      "invoices": 50
+    },
+    {
+      "id": "batch-03",
+      "input": "inputs/batch-03.txt",
+      "input_sha256": "1d4858c784e4ea8d8378ad37e79044919f8fc277811f9dafa2007b578067ff8d",
+      "invoices": 50
+    },
+    {
+      "id": "batch-04",
+      "input": "inputs/batch-04.txt",
+      "input_sha256": "2b7e903da931c1038b8ad60d288a97f15f880244b4e1cc6e90b54604fb9acc80",
+      "invoices": 50
+    }
+  ],
+  "reply_room": "context: the run's context window (the profile's n_ctx) minus the prompt. Context is the run's configuration, recorded with it, not part of the eval.",
+  "pass": "a batch passes when every invoice gets the code in eval/answer-key.json; fields correct out of the batch's invoices are recorded beside the verdict and are the score. eval/grade.py is the stdlib reference and also breaks misses down by policy rule."
+}

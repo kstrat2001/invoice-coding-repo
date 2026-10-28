@@ -7,18 +7,19 @@
     "LICENSE",
     "SHA256SUMS",
     "chart/cost-codes.md",
-    "invoices/BW-88213.md",
-    "invoices/RWE-2026-0417.md",
-    "invoices/BW-88390.md",
-    "invoices/SPL-55102.md",
-    "invoices/TLP-1107.md",
-    "inputs/october.txt",
-    "evals/october.json",
     "roles/ap-coder.json",
     "roles/ap-coder.md",
-    "eval/expected.json",
+    "eval/answer-key.json",
     "eval/grade.py",
-    "eval/workloads/invoice-coding-october.json"
+    "evals/invoice-coding.json",
+    "inputs/batch-01.txt",
+    "eval/workloads/invoice-coding-batch-01.json",
+    "inputs/batch-02.txt",
+    "eval/workloads/invoice-coding-batch-02.json",
+    "inputs/batch-03.txt",
+    "eval/workloads/invoice-coding-batch-03.json",
+    "inputs/batch-04.txt",
+    "eval/workloads/invoice-coding-batch-04.json"
   ],
   "eval_dir": "eval"
 }

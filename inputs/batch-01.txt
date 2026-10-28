@@ -1,0 +1,964 @@
+# Copperleaf Cycle Works: cost codes and coding policy
+
+Accounts payable codes every vendor invoice to one cost code before it is
+paid. Copperleaf Cycle Works is a bike shop: it sells bikes, parts and
+clothing, and it services customers' bikes in its own workshop. Use only the
+codes below.
+
+## Cost codes
+
+| Code | Name | Use it for |
+| --- | --- | --- |
+| 1300 | Deposits | Refundable deposits we pay, whoever they are paid to |
+| 1400 | Prepaid expenses | Expenses billed well before the period they cover (rule 5) |
+| 1500 | Shop equipment | Equipment and tools we keep and use, when a single item costs $2,500.00 or more (rule 2) |
+| 5100 | Parts and accessories for resale | Parts, tires, tubes and accessories we sell or fit on customers' bikes |
+| 5150 | Bikes for resale | Complete bicycles and e-bikes we buy to sell |
+| 5200 | Clothing and helmets for resale | Clothing, shoes, gloves and helmets we buy to sell |
+| 5300 | Outsourced customer repairs | Work another shop does on a customer's bike for us |
+| 6100 | Rent | Rent for the shop and storage space |
+| 6150 | Equipment rental | Renting equipment, tents or vehicles we do not own |
+| 6210 | Electricity and gas | Power and gas for the premises |
+| 6220 | Water and sewer | Water, sewer and trash service |
+| 6230 | Internet and phone | Internet, landlines and mobile phones |
+| 6300 | Software and subscriptions | Software, apps and online software services, however they are billed (rule 5) |
+| 6400 | Building repairs | Repairing and maintaining the premises |
+| 6410 | Equipment repairs | Repairing and servicing equipment we own, other than vehicles |
+| 6450 | Small tools and equipment | Equipment and tools we keep and use, when a single item costs less than $2,500.00 (rule 2) |
+| 6460 | Shop consumables | Lubricants, cleaners, rags, gloves and other supplies used up in the workshop (rule 4) |
+| 6500 | Office supplies | Paper, printer ink, receipt rolls, stationery |
+| 6550 | Outbound shipping | Shipping we pay to send goods to customers (rule 3) |
+| 6600 | Advertising | Ads, printed flyers, online ad campaigns |
+| 6610 | Sponsorships and events | Sponsoring races, clubs and community events |
+| 6700 | Accounting and bookkeeping | Accountants, bookkeepers, tax preparation |
+| 6710 | Legal fees | Lawyers and legal filings |
+| 6800 | Insurance | Insurance premiums (rule 5) |
+| 6900 | Bank and card fees | Bank charges and card processing fees |
+| 6950 | Training | Courses, certifications and workshops for staff, online or in person |
+| 7000 | Business meals | Meals with customers, suppliers or staff |
+| 7100 | Travel | Airfare, hotels, trains and car hire on business trips |
+| 7200 | Memberships and dues | Trade associations and industry memberships (rule 5) |
+| 7300 | Cleaning services | Cleaning and janitorial services for the premises |
+| 7400 | Vehicle fuel | Fuel and charging for the shop's van |
+| 7450 | Vehicle repairs | Repairing and servicing the shop's van |
+| 7500 | Licenses and permits | Business licenses, permits and registrations |
+| 7600 | Donations | Charitable donations |
+
+## Coding policy
+
+1. Code what was bought, not who sold it. A vendor we usually buy one kind of
+   thing from can send an invoice for something else.
+2. Equipment and tools we keep and use are 1500 when a single item costs
+   $2,500.00 or more, and 6450 when it costs less. Use one item's unit price,
+   before tax and shipping, never the line total or the invoice total.
+3. Freight, shipping and handling charged on goods we buy are part of those
+   goods: code them with the goods, even when a carrier bills the freight on
+   its own invoice. 6550 is only for shipping we pay to send goods to
+   customers.
+4. Lubricants, cleaners and similar supplies are 6460 when the workshop uses
+   them up, and 5100 when we buy them in retail packs to sell; an invoice for
+   stock to sell says so ("for resale" or "retail stock").
+5. An expense whose covered period starts more than 90 days after the invoice
+   date is 1400, whatever kind of expense it is. Software and subscriptions
+   (6300) are the one exception: they are always 6300, however far ahead they
+   are billed.
+6. A refundable deposit is 1300, whoever it is paid to. It is not rent and not
+   rental.
+7. Repairs are coded by what was repaired: the premises 6400, our own
+   equipment 6410, the shop's van 7450, and a customer's bike 5300.
+8. Each invoice gets exactly one code. Every invoice in the batch has lines of
+   only one kind (apart from freight and tax on those lines), so one code
+   always fits the whole invoice.
+
+# Invoices to code
+
+There are 50 invoices in this batch.
+
+=== INVOICE NGD5106 ===
+
+NORTHGRADE CYCLE DISTRIBUTION
+77 Quarry Road · Alden Ford, WA 98997 · (360) 555-0114
+
+INVOICE NGD5106
+Date: 2026-10-10
+Terms: Net 30
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Tubeless sealant, 120 ml retail, case of 12 | qty 1 @ $71.40 = $71.40
+2. Bike wash spray, 1 L retail, case of 12 | qty 1 @ $79.20 = $79.20
+3. Grease, 100 g retail tube, case of 24 | qty 2 @ $88.80 = $177.60
+
+Amount due: $328.20
+
+Retail stock, for resale.
+
+=== INVOICE TLP-8480 ===
+
+## Tallow Lane Properties
+1250 Ash Court, Marrow Falls, OR 97999
+(541) 555-0129 · accounts@tallowlane.example
+
+- Invoice: TLP-8480
+- Issued: October 24, 2026
+- Billed to: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+- Payment terms: Net 30
+
+Items:
+- Security deposit for Unit C (storage), refundable at the end of the lease less any damage: $1,500.00
+
+Total: $1,500.00
+
+=== INVOICE RWE-2026-3545 ===
+
+RIDGELINE WORKSHOP EQUIPMENT
+4410 Millrace Avenue, Suite 12 · Corvale, WA 98999 · (360) 555-0163
+
+INVOICE RWE-2026-3545
+Date: October 29, 2026
+Terms: Due on receipt
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Chain wear gauge | qty 2 @ $18.50 = $37.00
+2. Professional workshop tool kit, 38 pieces | qty 1 @ $389.00 = $389.00
+3. Headset press | qty 2 @ $185.00 = $370.00
+
+Amount due: $796.00
+
+=== INVOICE PP-8215 ===
+
+# ParcelPath
+
+20 Sorting Plaza, Alden Ford, WA 98997 · (360) 555-0102 · billing@parcelpath.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| PP-8215 | 28 Oct 2026 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Inbound freight: 5 boxed bikes for resale, from Fernhill Electric Bikes to Copperleaf Cycle Works, PO 4842 | 1 | $167.50 | $167.50 |
+
+**Total due: $167.50**
+
+Shipper: Fernhill Electric Bikes. Consignee: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999.
+
+=== INVOICE CH7606 ===
+
+# Crestline Helmets
+
+1200 Shell Avenue, Kessel Point, OR 97998 · (541) 555-0192 · billing@crestline-helmets.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| CH7606 | 26 Oct 2026 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Helmet, road, MIPS, size M | 8 | $54.00 | $432.00 |
+| Cycling shoes, SPD, size 42 | 12 | $63.00 | $756.00 |
+| Wool socks, 3-pack | 5 | $11.25 | $56.25 |
+| Bib shorts, women's S | 3 | $41.50 | $124.50 |
+
+**Total due: $1,368.75**
+
+=== INVOICE LDG2107 ===
+
+# Ledgerly
+
+5 Column Street, Harlow Bend, CA 94997 · (707) 555-0127 · billing@ledgerly.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| LDG2107 | 2026-10-30 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+Period covered: 2027-07-01 to 2028-06-30
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Ledgerly Small Business bookkeeping software, annual subscription | 1 | $540.00 | $540.00 |
+
+**Total due: $540.00**
+
+=== INVOICE RWE-2026-3550 ===
+
+RIDGELINE WORKSHOP EQUIPMENT
+4410 Millrace Avenue, Suite 12 · Corvale, WA 98999 · (360) 555-0163
+
+INVOICE RWE-2026-3550
+Date: October 19, 2026
+Terms: Net 30
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Wheel building and truing station, bench mount | qty 1 @ $2,500.00 = $2,500.00
+
+Amount due: $2,500.00
+
+Serial no. A97785. Warranty registered to the buyer.
+
+=== INVOICE YCF6263 ===
+
+## Marrow Falls Youth Cycling Fund
+PO Box 12, Marrow Falls, OR 97999
+(541) 555-0126 · accounts@youthcycling.example
+
+- Invoice: YCF6263
+- Issued: October 7, 2026
+- Billed to: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+- Payment terms: Net 30
+
+Items:
+- Donation pledge: youth learn-to-ride program, fall session: $250.00
+
+Total: $250.00
+
+Thank you for your charitable gift. No goods, services or advertising were provided in return. Receipt for your records.
+
+=== INVOICE MFC5893 ===
+
+# Marrow Falls Chamber of Commerce
+
+2 Main Street, Marrow Falls, OR 97999 · (541) 555-0112 · billing@mfchamber.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| MFC5893 | 2026-10-25 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+Period covered: 2026-11-01 to 2027-10-31
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Chamber membership, small business tier, annual | 1 | $285.00 | $285.00 |
+
+**Total due: $285.00**
+
+=== INVOICE TT2119 ===
+
+# Torque & Truing Tool Works
+
+58 Anvil Row, Marrow Falls, OR 97999 · (541) 555-0148 · billing@tt-toolworks.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| TT2119 | 2026-10-05 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Nitrile gloves, box of 100 | 1 | $11.80 | $11.80 |
+| Brake cleaner, 12 cans | 2 | $44.40 | $88.80 |
+
+**Total due: $100.60**
+
+Workshop supplies.
+
+=== INVOICE LDG2117 ===
+
+# Ledgerly
+
+5 Column Street, Harlow Bend, CA 94997 · (707) 555-0127 · billing@ledgerly.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| LDG2117 | 2026-10-28 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+Period covered: 2026-11-01 to 2026-11-30
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Ledgerly Small Business, monthly subscription | 1 | $48.00 | $48.00 |
+
+**Total due: $48.00**
+
+=== INVOICE OBC-2138 ===
+
+# Ostrava Bicycle Co.
+
+900 Assembly Way, Dunmore, OR 97996 · (503) 555-0170 · billing@ostrava-bikes.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| OBC-2138 | 2026-10-07 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Fernhill Commute e-bike, 500 Wh | 1 | $1,480.00 | $1,480.00 |
+| Ostrava Roadster 105, size 56 | 1 | $845.00 | $845.00 |
+
+**Total due: $2,325.00**
+
+=== INVOICE NGD5107 ===
+
+NORTHGRADE CYCLE DISTRIBUTION
+77 Quarry Road · Alden Ford, WA 98997 · (360) 555-0114
+
+INVOICE NGD5107
+Date: 2026-10-22
+Terms: Net 15
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Helmet, kids, size S | qty 8 @ $19.75 = $158.00
+2. Gloves, full finger, L | qty 10 @ $12.90 = $129.00
+
+Amount due: $287.00
+
+=== INVOICE TLP-8512 ===
+
+## Tallow Lane Properties
+1250 Ash Court, Marrow Falls, OR 97999
+(541) 555-0129 · accounts@tallowlane.example
+
+- Invoice: TLP-8512
+- Issued: October 21, 2026
+- Billed to: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+- Payment terms: Net 15
+- Coverage: October 1, 2026 through October 31, 2026
+
+Items:
+- Monthly rent, 418 Tannery Row, Unit B: $2,850.00
+
+Total: $2,850.00
+
+=== INVOICE FEB-SVC-7180 ===
+
+FIRST EXAMPLE BANK
+1 Vault Square · Portmere, OR 97995 · (503) 555-0190
+
+INVOICE FEB-SVC-7180
+Date: 2026-10-23
+Terms: Net 30
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Monthly account maintenance fee | qty 1 @ $25.00 = $25.00
+2. Incoming wire fees, 3 at $15.00 | qty 1 @ $45.00 = $45.00
+
+Amount due: $70.00
+
+=== INVOICE WB6699 ===
+
+## Marrow Falls Water Bureau
+9 Reservoir Way, Marrow Falls, OR 97999
+(541) 555-0101 · accounts@mfwater.example
+
+- Invoice: WB6699
+- Issued: 2026-10-06
+- Billed to: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+- Payment terms: Net 30
+
+Items:
+- Water, sewer and trash service, 418 Tannery Row Unit B, bimonthly: $186.64
+
+Total: $186.64
+
+=== INVOICE BWE5237 ===
+
+## Brightwire Electric
+17 Circuit Lane, Marrow Falls, OR 97999
+(541) 555-0119 · accounts@brightwire.example
+
+- Invoice: BWE5237
+- Issued: 28 Oct 2026
+- Billed to: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+- Payment terms: Net 30
+
+Items:
+- Repair tripped circuit and replace outlet, workshop wall: $165.00
+
+Total: $165.00
+
+=== INVOICE TT2142 ===
+
+# Torque & Truing Tool Works
+
+58 Anvil Row, Marrow Falls, OR 97999 · (541) 555-0148 · billing@tt-toolworks.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| TT2142 | 2026-10-22 | Net 15 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Suspension service station with fork stand | 1 | $3,950.00 | $3,950.00 |
+
+**Total due: $3,950.00**
+
+Serial no. A53378. Warranty registered to the buyer.
+
+=== INVOICE NGD5139 ===
+
+NORTHGRADE CYCLE DISTRIBUTION
+77 Quarry Road · Alden Ford, WA 98997 · (360) 555-0114
+
+INVOICE NGD5139
+Date: 2026-10-29
+Terms: Net 30
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Grips, lock-on | qty 34 @ $9.10 = $309.40
+2. Kickstand, adjustable | qty 23 @ $8.80 = $202.40
+3. Freight, ground | qty 1 @ $85.00 = $85.00
+
+Amount due: $596.80
+
+Resale certificate on file.
+
+=== INVOICE BW-8287 ===
+
+# Bellwether Bike Supply
+
+2209 Foundry Street, Kessel Point, OR 97998 · (541) 555-0187 · billing@bellwether-bike.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| BW-8287 | October 28, 2026 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Torque wrench, 2-14 Nm | 1 | $54.00 | $54.00 |
+| Bench vise, 5 in. | 1 | $142.00 | $142.00 |
+
+**Total due: $196.00**
+
+=== INVOICE TT-PAY-4400 ===
+
+TAPTILL PAYMENTS
+40 Swipe Avenue · Bramwick, CA 94999 · (415) 555-0173
+
+INVOICE TT-PAY-4400
+Date: 13 Oct 2026
+Terms: Net 30
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+Service period: 01 Oct 2026 - 31 Oct 2026
+
+1. TapTill POS app, Pro plan, 3 registers, monthly subscription | qty 1 @ $89.00 = $89.00
+
+Amount due: $89.00
+
+=== INVOICE FGM4101 ===
+
+FALLS GAZETTE MEDIA
+120 Press Street · Marrow Falls, OR 97999 · (541) 555-0124
+
+INVOICE FGM4101
+Date: October 3, 2026
+Terms: Net 30
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Half-page ad, Falls Gazette weekend edition, Nov 7 and Nov 14 | qty 1 @ $520.00 = $520.00
+
+Amount due: $520.00
+
+=== INVOICE MFC5915 ===
+
+# Marrow Falls Chamber of Commerce
+
+2 Main Street, Marrow Falls, OR 97999 · (541) 555-0112 · billing@mfchamber.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| MFC5915 | 2026-10-26 | Net 15 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+Period covered: 2027-04-01 to 2028-03-31
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Chamber membership, small business tier, annual | 1 | $285.00 | $285.00 |
+
+**Total due: $285.00**
+
+=== INVOICE TT2160 ===
+
+# Torque & Truing Tool Works
+
+58 Anvil Row, Marrow Falls, OR 97999 · (541) 555-0148 · billing@tt-toolworks.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| TT2160 | 2026-10-15 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Workbench with tool board, 6 ft | 4 | $1,180.00 | $4,720.00 |
+
+**Total due: $4,720.00**
+
+=== INVOICE QS-7466 ===
+
+# Quillstone Office Supply
+
+19 Paper Lane, Kessel Point, OR 97998 · (541) 555-0181 · billing@quillstone.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| QS-7466 | 24 Oct 2026 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Binder clips, assorted | 4 | $7.80 | $31.20 |
+| Thermal receipt rolls, 50 pack | 5 | $39.50 | $197.50 |
+| Toner cartridge, black | 3 | $86.00 | $258.00 |
+| Ballpoint pens, box of 50 | 3 | $9.60 | $28.80 |
+
+**Total due: $515.50**
+
+=== INVOICE TT2187 ===
+
+# Torque & Truing Tool Works
+
+58 Anvil Row, Marrow Falls, OR 97999 · (541) 555-0148 · billing@tt-toolworks.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| TT2187 | 2026-10-10 | Net 15 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Wheel building jig, pro | 1 | $2,575.00 | $2,575.00 |
+| Freight, curbside delivery | 1 | $24.90 | $24.90 |
+
+**Total due: $2,599.90**
+
+Serial no. C76963. Warranty registered to the buyer.
+
+=== INVOICE CC-5913 ===
+
+# Compressor Care NW
+
+44 Valve Road, Dunmore, OR 97996 · (503) 555-0143 · billing@compressorcare.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| CC-5913 | 2026-10-10 | Due on receipt |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Recalibrate and repair truing stand gauge | 1 | $95.00 | $95.00 |
+
+**Total due: $95.00**
+
+=== INVOICE RBS6645 ===
+
+# Riverbend Storage
+
+88 Levee Road, Marrow Falls, OR 97999 · (541) 555-0158 · billing@riverbend-storage.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| RBS6645 | 05 Oct 2026 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+Period covered: 01 Jun 2027 to 31 Aug 2027
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Seasonal storage unit S-14, rent for the period shown, paid in advance | 1 | $1,125.00 | $1,125.00 |
+
+**Total due: $1,125.00**
+
+=== INVOICE RRC2369 ===
+
+# Ridge Riders Cycling Club
+
+PO Box 77, Kessel Point, OR 97998 · (541) 555-0144 · billing@ridgeriders.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| RRC2369 | 28 Oct 2026 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Club kit sponsorship, Ridge Riders Cycling Club, 2027 season | 1 | $800.00 | $800.00 |
+
+**Total due: $800.00**
+
+=== INVOICE MFC5916 ===
+
+# Marrow Falls Chamber of Commerce
+
+2 Main Street, Marrow Falls, OR 97999 · (541) 555-0112 · billing@mfchamber.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| MFC5916 | 2026-10-19 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+Period covered: 2027-04-01 to 2028-03-31
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Chamber membership, small business tier, annual | 1 | $285.00 | $285.00 |
+
+**Total due: $285.00**
+
+=== INVOICE OBC-2169 ===
+
+# Ostrava Bicycle Co.
+
+900 Assembly Way, Dunmore, OR 97996 · (503) 555-0170 · billing@ostrava-bikes.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| OBC-2169 | 2026-10-21 | Due on receipt |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Ostrava Kid 20 in. | 3 | $189.00 | $567.00 |
+| Ostrava Roadster 105, size 56 | 1 | $845.00 | $845.00 |
+| Ostrava Trail 2 hardtail, size M | 4 | $612.00 | $2,448.00 |
+| Freight, palletized delivery | 1 | $24.90 | $24.90 |
+
+**Total due: $3,884.90**
+
+=== INVOICE HMI7655 ===
+
+HARBORLINE MUTUAL INSURANCE
+60 Anchor Street · Portmere, OR 97995 · (503) 555-0151
+
+INVOICE HMI7655
+Date: October 30, 2026
+Terms: Net 15
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+Service period: November 1, 2026 - October 31, 2027
+
+1. Commercial auto policy, shop van, annual premium | qty 1 @ $1,640.00 = $1,640.00
+
+Amount due: $1,640.00
+
+=== INVOICE MPA-4153 ===
+
+# Mechanic Pathways Academy
+
+50 Learning Way, Bramwick, CA 94999 · (415) 555-0147 · billing@mechpath.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| MPA-4153 | October 4, 2026 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| In-person workshop: wheel building fundamentals, 1 seat | 1 | $425.00 | $425.00 |
+
+**Total due: $425.00**
+
+=== INVOICE CKB7827 ===
+
+## Copper Kettle Bistro
+210 Tannery Row, Marrow Falls, OR 97999
+(541) 555-0153 · accounts@copperkettle.example
+
+- Invoice: CKB7827
+- Issued: 09 Oct 2026
+- Billed to: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+- Payment terms: Due on receipt
+
+Items:
+- Lunch for 4, supplier meeting with Bellwether rep: $238.50
+
+Total: $238.50
+
+=== INVOICE MFPG-8328 ===
+
+MARROW FALLS POWER & GAS
+1 Grid Plaza · Marrow Falls, OR 97999 · (541) 555-0100
+
+INVOICE MFPG-8328
+Date: October 28, 2026
+Terms: Due on receipt
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Electricity and natural gas service, 418 Tannery Row Unit B, September usage | qty 1 @ $184.64 = $184.64
+
+Amount due: $184.64
+
+=== INVOICE PC-2130 ===
+
+## Pinecut Components
+15 Mill Lane, Harlow Bend, CA 94997
+(707) 555-0155 · accounts@pinecut.example
+
+- Invoice: PC-2130
+- Issued: 24 Oct 2026
+- Billed to: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+- Payment terms: Net 15
+
+Items:
+- 2 × Brake cleaner, 12 cans, $44.40 each, $88.80
+- 2 × Chain lube, dry, 1 L shop jug, $21.40 each, $42.80
+- 4 × Shop rags, 25 lb box, $39.00 each, $156.00
+
+Total: $287.60
+
+Workshop supplies.
+
+=== INVOICE NGD5148 ===
+
+NORTHGRADE CYCLE DISTRIBUTION
+77 Quarry Road · Alden Ford, WA 98997 · (360) 555-0114
+
+INVOICE NGD5148
+Date: 2026-10-27
+Terms: Net 30
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Disc brake pads, resin, road/gravel | qty 26 @ $9.85 = $256.10
+2. Gravel tire 700x40c, tubeless ready | qty 21 @ $31.25 = $656.25
+3. Bar tape, cork, black | qty 12 @ $8.40 = $100.80
+
+Amount due: $1,013.15
+
+Resale certificate on file.
+
+=== INVOICE FW-3387 ===
+
+# Fernwave Fiber
+
+300 Signal Street, Portmere, OR 97995 · (503) 555-0199 · billing@fernwave.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| FW-3387 | 17 Oct 2026 | Net 15 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Business fiber internet 500 Mbps and two mobile lines, monthly | 1 | $167.64 | $167.64 |
+
+**Total due: $167.64**
+
+=== INVOICE GSS-6436 ===
+
+## Gravity Suspension Service
+12 Rebound Street, Harlow Bend, CA 94997
+(707) 555-0122 · accounts@gravity-susp.example
+
+- Invoice: GSS-6436
+- Issued: October 10, 2026
+- Billed to: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+- Payment terms: Net 15
+
+Items:
+- Carbon frame repair, customer bike, work order WO-3652: $420.00
+
+Total: $420.00
+
+Bike returned to Copperleaf Cycle Works for the customer to collect.
+
+=== INVOICE AF-8723 ===
+
+ALDER & FINCH CPAS
+400 Ledger Avenue, Suite 3 · Portmere, OR 97995 · (503) 555-0138
+
+INVOICE AF-8723
+Date: October 13, 2026
+Terms: Due on receipt
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Monthly bookkeeping and bank reconciliation, September | qty 1 @ $650.00 = $650.00
+2. Quarterly payroll tax filings | qty 1 @ $180.00 = $180.00
+
+Amount due: $830.00
+
+=== INVOICE SWF2049 ===
+
+SWIFTLINE FREIGHT
+6000 Dock Road · Portmere, OR 97995 · (503) 555-0109
+
+INVOICE SWF2049
+Date: 2026-10-27
+Terms: Net 15
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Parcel to customer, order #10509, ground | qty 1 @ $35.40 = $35.40
+2. Parcel to customer, order #10664, 2-day | qty 1 @ $35.40 = $35.40
+3. Parcel to customer, order #10627, 2-day | qty 1 @ $22.85 = $22.85
+
+Amount due: $93.65
+
+Shipper: Copperleaf Cycle Works. Parcels delivered to the consignees on each line.
+
+=== INVOICE CFC6961 ===
+
+CASCADE FUEL CARD
+1 Pump Plaza · Portmere, OR 97995 · (503) 555-0105
+
+INVOICE CFC6961
+Date: 2026-10-31
+Terms: Net 15
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Diesel, shop van, Oct 3 | qty 1 @ $60.37 = $60.37
+2. Diesel, shop van, Oct 11 | qty 1 @ $79.37 = $79.37
+
+Amount due: $139.74
+
+=== INVOICE SER-2773 ===
+
+# Summit Event Rentals
+
+700 Canopy Drive, Dunmore, OR 97996 · (503) 555-0137 · billing@summit-rentals.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| SER-2773 | October 2, 2026 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Rental: 10x20 ft event tent with sidewalls, 3 days (Gravel Classic expo) | 1 | $640.00 | $640.00 |
+
+**Total due: $640.00**
+
+=== INVOICE HPH-2824 ===
+
+HARBOR POINT HOTEL
+9 Pier Street · Portmere, OR 97995 · (503) 555-0186
+
+INVOICE HPH-2824
+Date: October 28, 2026
+Terms: Net 30
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+1. Room, 2 nights, Northwest Bicycle Retailers trade show | qty 2 @ $189.00 = $378.00
+
+Amount due: $378.00
+
+=== INVOICE BL-4957 ===
+
+## City of Marrow Falls, Business Licensing
+2 Main Street, Marrow Falls, OR 97999
+(541) 555-0110 · accounts@marrowfalls.example
+
+- Invoice: BL-4957
+- Issued: 2026-10-12
+- Billed to: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+- Payment terms: Net 30
+
+Items:
+- Business license renewal, retail and repair, Copperleaf Cycle Works: $150.00
+- Sidewalk display permit: $45.00
+
+Total: $195.00
+
+=== INVOICE PP-8222 ===
+
+# ParcelPath
+
+20 Sorting Plaza, Alden Ford, WA 98997 · (360) 555-0102 · billing@parcelpath.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| PP-8222 | 16 Oct 2026 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Inbound freight: 4 cartons of parts and accessories for resale, from Northgrade Cycle Distribution to Copperleaf Cycle Works, PO 4863 | 1 | $157.50 | $157.50 |
+
+**Total due: $157.50**
+
+Shipper: Northgrade Cycle Distribution. Consignee: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999.
+
+=== INVOICE HMI7683 ===
+
+HARBORLINE MUTUAL INSURANCE
+60 Anchor Street · Portmere, OR 97995 · (503) 555-0151
+
+INVOICE HMI7683
+Date: October 20, 2026
+Terms: Net 30
+Customer: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+Service period: June 1, 2027 - May 31, 2028
+
+1. Commercial auto policy, shop van, annual premium | qty 1 @ $1,640.00 = $1,640.00
+
+Amount due: $1,640.00
+
+=== INVOICE TRA-5269 ===
+
+# Tannery Row Auto
+
+502 Tannery Row, Marrow Falls, OR 97999 · (541) 555-0161 · billing@tanneryauto.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| TRA-5269 | October 29, 2026 | Net 30 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Brake pads and rotors, front, shop van (plate CCW-418) | 1 | $468.00 | $468.00 |
+
+**Total due: $468.00**
+
+=== INVOICE SCC-2574 ===
+
+# Sparrow Cleaning Co.
+
+61 Broom Street, Marrow Falls, OR 97999 · (541) 555-0171 · billing@sparrowclean.example
+
+| Invoice no. | Invoice date | Terms |
+| --- | --- | --- |
+| SCC-2574 | October 28, 2026 | Net 15 |
+
+**Bill to:** Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+
+| Description | Qty | Unit price | Amount |
+| --- | --- | --- | --- |
+| Weekly cleaning, showroom and workshop, October (4 visits) | 4 | $95.00 | $380.00 |
+
+**Total due: $380.00**
+
+=== INVOICE KLG8523 ===
+
+## Kestrel Law Group
+77 Court Street, Portmere, OR 97995
+(503) 555-0159 · accounts@kestrel-law.example
+
+- Invoice: KLG8523
+- Issued: 2026-10-28
+- Billed to: Copperleaf Cycle Works, 418 Tannery Row, Unit B, Marrow Falls, OR 97999
+- Payment terms: Net 30
+
+Items:
+- Review of storage unit lease (Unit C), 2.5 hours: $775.00
+- Trademark search, shop name: $240.00
+
+Total: $1,015.00

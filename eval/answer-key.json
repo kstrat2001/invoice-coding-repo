@@ -1,0 +1,1240 @@
+{
+  "batch-01": {
+    "NGD5106": {
+      "code": "5100",
+      "kind": "retail-lube",
+      "tags": [
+        "retail-pack"
+      ]
+    },
+    "TLP-8480": {
+      "code": "1300",
+      "kind": "deposit",
+      "tags": [
+        "deposit"
+      ]
+    },
+    "RWE-2026-3545": {
+      "code": "6450",
+      "kind": "small-tools",
+      "tags": []
+    },
+    "PP-8215": {
+      "code": "5150",
+      "kind": "carrier-inbound-bikes",
+      "tags": [
+        "freight",
+        "carrier"
+      ]
+    },
+    "CH7606": {
+      "code": "5200",
+      "kind": "apparel",
+      "tags": []
+    },
+    "LDG2107": {
+      "code": "6300",
+      "kind": "software-annual-ahead",
+      "tags": [
+        "prepaid",
+        "software-exception"
+      ]
+    },
+    "RWE-2026-3550": {
+      "code": "1500",
+      "kind": "equipment-at-threshold",
+      "tags": [
+        "threshold",
+        "threshold-edge"
+      ]
+    },
+    "YCF6263": {
+      "code": "7600",
+      "kind": "donation",
+      "tags": []
+    },
+    "MFC5893": {
+      "code": "7200",
+      "kind": "membership",
+      "tags": []
+    },
+    "TT2119": {
+      "code": "6460",
+      "kind": "consumables",
+      "tags": [
+        "consumable"
+      ]
+    },
+    "LDG2117": {
+      "code": "6300",
+      "kind": "software",
+      "tags": []
+    },
+    "OBC-2138": {
+      "code": "5150",
+      "kind": "bikes",
+      "tags": []
+    },
+    "NGD5107": {
+      "code": "5200",
+      "kind": "apparel-from-parts-vendor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "TLP-8512": {
+      "code": "6100",
+      "kind": "rent",
+      "tags": []
+    },
+    "FEB-SVC-7180": {
+      "code": "6900",
+      "kind": "bank-fees",
+      "tags": []
+    },
+    "WB6699": {
+      "code": "6220",
+      "kind": "water",
+      "tags": []
+    },
+    "BWE5237": {
+      "code": "6400",
+      "kind": "building-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "TT2142": {
+      "code": "1500",
+      "kind": "equipment",
+      "tags": [
+        "threshold"
+      ]
+    },
+    "NGD5139": {
+      "code": "5100",
+      "kind": "parts+freight",
+      "tags": [
+        "freight"
+      ]
+    },
+    "BW-8287": {
+      "code": "6450",
+      "kind": "small-tools-from-parts-vendor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "TT-PAY-4400": {
+      "code": "6300",
+      "kind": "software-from-card-processor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "FGM4101": {
+      "code": "6600",
+      "kind": "advertising",
+      "tags": []
+    },
+    "MFC5915": {
+      "code": "1400",
+      "kind": "membership-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "TT2160": {
+      "code": "6450",
+      "kind": "small-tools-qty-over-threshold",
+      "tags": [
+        "unit-price"
+      ]
+    },
+    "QS-7466": {
+      "code": "6500",
+      "kind": "office",
+      "tags": []
+    },
+    "TT2187": {
+      "code": "1500",
+      "kind": "equipment+freight",
+      "tags": [
+        "threshold",
+        "freight"
+      ]
+    },
+    "CC-5913": {
+      "code": "6410",
+      "kind": "equipment-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "RBS6645": {
+      "code": "1400",
+      "kind": "rent-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "RRC2369": {
+      "code": "6610",
+      "kind": "sponsorship",
+      "tags": []
+    },
+    "MFC5916": {
+      "code": "1400",
+      "kind": "membership-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "OBC-2169": {
+      "code": "5150",
+      "kind": "bikes+freight",
+      "tags": [
+        "freight"
+      ]
+    },
+    "HMI7655": {
+      "code": "6800",
+      "kind": "insurance",
+      "tags": []
+    },
+    "MPA-4153": {
+      "code": "6950",
+      "kind": "training-online",
+      "tags": [
+        "online-training"
+      ]
+    },
+    "CKB7827": {
+      "code": "7000",
+      "kind": "meals",
+      "tags": []
+    },
+    "MFPG-8328": {
+      "code": "6210",
+      "kind": "electricity",
+      "tags": []
+    },
+    "PC-2130": {
+      "code": "6460",
+      "kind": "consumables-from-parts-vendor",
+      "tags": [
+        "consumable",
+        "vendor"
+      ]
+    },
+    "NGD5148": {
+      "code": "5100",
+      "kind": "parts",
+      "tags": []
+    },
+    "FW-3387": {
+      "code": "6230",
+      "kind": "internet",
+      "tags": []
+    },
+    "GSS-6436": {
+      "code": "5300",
+      "kind": "outsourced-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "AF-8723": {
+      "code": "6700",
+      "kind": "accounting",
+      "tags": []
+    },
+    "SWF2049": {
+      "code": "6550",
+      "kind": "carrier-outbound",
+      "tags": [
+        "outbound"
+      ]
+    },
+    "CFC6961": {
+      "code": "7400",
+      "kind": "fuel",
+      "tags": []
+    },
+    "SER-2773": {
+      "code": "6150",
+      "kind": "equipment-rental",
+      "tags": []
+    },
+    "HPH-2824": {
+      "code": "7100",
+      "kind": "travel",
+      "tags": []
+    },
+    "BL-4957": {
+      "code": "7500",
+      "kind": "license",
+      "tags": []
+    },
+    "PP-8222": {
+      "code": "5100",
+      "kind": "carrier-inbound",
+      "tags": [
+        "freight",
+        "carrier"
+      ]
+    },
+    "HMI7683": {
+      "code": "1400",
+      "kind": "insurance-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "TRA-5269": {
+      "code": "7450",
+      "kind": "van-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "SCC-2574": {
+      "code": "7300",
+      "kind": "cleaning",
+      "tags": []
+    },
+    "KLG8523": {
+      "code": "6710",
+      "kind": "legal",
+      "tags": []
+    }
+  },
+  "batch-02": {
+    "MPA-4167": {
+      "code": "6950",
+      "kind": "training-online",
+      "tags": [
+        "online-training"
+      ]
+    },
+    "PP-8243": {
+      "code": "5150",
+      "kind": "carrier-inbound-bikes",
+      "tags": [
+        "freight",
+        "carrier"
+      ]
+    },
+    "RWE-2026-3585": {
+      "code": "6460",
+      "kind": "consumables",
+      "tags": [
+        "consumable"
+      ]
+    },
+    "TWA-3820": {
+      "code": "5200",
+      "kind": "apparel",
+      "tags": []
+    },
+    "BW-8305": {
+      "code": "5100",
+      "kind": "retail-lube",
+      "tags": [
+        "retail-pack"
+      ]
+    },
+    "TLP-8532": {
+      "code": "6100",
+      "kind": "rent",
+      "tags": []
+    },
+    "MFGC-8781": {
+      "code": "6610",
+      "kind": "sponsorship",
+      "tags": []
+    },
+    "CKB7839": {
+      "code": "7000",
+      "kind": "meals",
+      "tags": []
+    },
+    "RWE-2026-3616": {
+      "code": "1500",
+      "kind": "equipment",
+      "tags": [
+        "threshold"
+      ]
+    },
+    "NWBRA-4074": {
+      "code": "1400",
+      "kind": "membership-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "RBS6655": {
+      "code": "1300",
+      "kind": "deposit",
+      "tags": [
+        "deposit"
+      ]
+    },
+    "FW-3408": {
+      "code": "6230",
+      "kind": "internet",
+      "tags": []
+    },
+    "YCF6285": {
+      "code": "7600",
+      "kind": "donation",
+      "tags": []
+    },
+    "FEB1597": {
+      "code": "5150",
+      "kind": "bikes+freight",
+      "tags": [
+        "freight"
+      ]
+    },
+    "TRA-5295": {
+      "code": "7450",
+      "kind": "van-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "HPH-2847": {
+      "code": "7100",
+      "kind": "travel",
+      "tags": []
+    },
+    "TT2222": {
+      "code": "6450",
+      "kind": "small-tools",
+      "tags": []
+    },
+    "SPL-2078": {
+      "code": "6300",
+      "kind": "software",
+      "tags": []
+    },
+    "NGD5176": {
+      "code": "5200",
+      "kind": "apparel-from-parts-vendor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "SER-2792": {
+      "code": "6150",
+      "kind": "equipment-rental",
+      "tags": []
+    },
+    "OBC-2172": {
+      "code": "5150",
+      "kind": "bikes",
+      "tags": []
+    },
+    "HMI7688": {
+      "code": "6800",
+      "kind": "insurance",
+      "tags": []
+    },
+    "PP-8272": {
+      "code": "6550",
+      "kind": "carrier-outbound",
+      "tags": [
+        "outbound"
+      ]
+    },
+    "BW-8326": {
+      "code": "6460",
+      "kind": "consumables-from-parts-vendor",
+      "tags": [
+        "consumable",
+        "vendor"
+      ]
+    },
+    "MFC5944": {
+      "code": "7200",
+      "kind": "membership",
+      "tags": []
+    },
+    "SCC-2608": {
+      "code": "7300",
+      "kind": "cleaning",
+      "tags": []
+    },
+    "SPL-2079": {
+      "code": "6300",
+      "kind": "software-annual-ahead",
+      "tags": [
+        "prepaid",
+        "software-exception"
+      ]
+    },
+    "IPS-5402": {
+      "code": "6600",
+      "kind": "advertising",
+      "tags": []
+    },
+    "RBS6667": {
+      "code": "1400",
+      "kind": "rent-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "PC-2159": {
+      "code": "5100",
+      "kind": "parts+freight",
+      "tags": [
+        "freight"
+      ]
+    },
+    "WB6701": {
+      "code": "6220",
+      "kind": "water",
+      "tags": []
+    },
+    "QS-7472": {
+      "code": "6500",
+      "kind": "office",
+      "tags": []
+    },
+    "AF-8749": {
+      "code": "6700",
+      "kind": "accounting",
+      "tags": []
+    },
+    "RWE-2026-3646": {
+      "code": "6450",
+      "kind": "small-tools-qty-over-threshold",
+      "tags": [
+        "unit-price"
+      ]
+    },
+    "TT-PAY-4416": {
+      "code": "6300",
+      "kind": "software-from-card-processor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "WB6736": {
+      "code": "6220",
+      "kind": "water",
+      "tags": []
+    },
+    "BW-8348": {
+      "code": "5100",
+      "kind": "parts",
+      "tags": []
+    },
+    "SWF2057": {
+      "code": "5100",
+      "kind": "carrier-inbound",
+      "tags": [
+        "freight",
+        "carrier"
+      ]
+    },
+    "HMI7713": {
+      "code": "1400",
+      "kind": "insurance-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "CC-5946": {
+      "code": "6410",
+      "kind": "equipment-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "TT2244": {
+      "code": "1500",
+      "kind": "equipment+freight",
+      "tags": [
+        "threshold",
+        "freight"
+      ]
+    },
+    "BL-4979": {
+      "code": "7500",
+      "kind": "license",
+      "tags": []
+    },
+    "MFPG-8360": {
+      "code": "6210",
+      "kind": "electricity",
+      "tags": []
+    },
+    "GSS-6455": {
+      "code": "5300",
+      "kind": "outsourced-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "BWE5260": {
+      "code": "6400",
+      "kind": "building-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "CFC6996": {
+      "code": "7400",
+      "kind": "fuel",
+      "tags": []
+    },
+    "NGD5205": {
+      "code": "6450",
+      "kind": "small-tools-from-parts-vendor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "KLG8535": {
+      "code": "6710",
+      "kind": "legal",
+      "tags": []
+    },
+    "TT-PAY-4425": {
+      "code": "6900",
+      "kind": "bank-fees",
+      "tags": []
+    },
+    "TT2266": {
+      "code": "1500",
+      "kind": "equipment-at-threshold",
+      "tags": [
+        "threshold",
+        "threshold-edge"
+      ]
+    }
+  },
+  "batch-03": {
+    "TWA-3842": {
+      "code": "5200",
+      "kind": "apparel",
+      "tags": []
+    },
+    "AF-8772": {
+      "code": "6700",
+      "kind": "accounting",
+      "tags": []
+    },
+    "NGD5234": {
+      "code": "5100",
+      "kind": "parts",
+      "tags": []
+    },
+    "CKB7859": {
+      "code": "7000",
+      "kind": "meals",
+      "tags": []
+    },
+    "SCC-2637": {
+      "code": "7300",
+      "kind": "cleaning",
+      "tags": []
+    },
+    "SWF2068": {
+      "code": "5100",
+      "kind": "carrier-inbound",
+      "tags": [
+        "freight",
+        "carrier"
+      ]
+    },
+    "GSS-6463": {
+      "code": "5300",
+      "kind": "outsourced-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "BW-8365": {
+      "code": "5100",
+      "kind": "parts+freight",
+      "tags": [
+        "freight"
+      ]
+    },
+    "OBC-2181": {
+      "code": "5150",
+      "kind": "bikes",
+      "tags": []
+    },
+    "BL-4988": {
+      "code": "7500",
+      "kind": "license",
+      "tags": []
+    },
+    "NGD5270": {
+      "code": "5200",
+      "kind": "apparel-from-parts-vendor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "PC-2161": {
+      "code": "6460",
+      "kind": "consumables-from-parts-vendor",
+      "tags": [
+        "consumable",
+        "vendor"
+      ]
+    },
+    "TT2302": {
+      "code": "1500",
+      "kind": "equipment-at-threshold",
+      "tags": [
+        "threshold",
+        "threshold-edge"
+      ]
+    },
+    "SPL-2094": {
+      "code": "6300",
+      "kind": "software-annual-ahead",
+      "tags": [
+        "prepaid",
+        "software-exception"
+      ]
+    },
+    "HPH-2856": {
+      "code": "7100",
+      "kind": "travel",
+      "tags": []
+    },
+    "PC-2182": {
+      "code": "5200",
+      "kind": "apparel-from-parts-vendor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "TT2325": {
+      "code": "6450",
+      "kind": "small-tools-qty-over-threshold",
+      "tags": [
+        "unit-price"
+      ]
+    },
+    "RWE-2026-3678": {
+      "code": "1500",
+      "kind": "equipment+freight",
+      "tags": [
+        "threshold",
+        "freight"
+      ]
+    },
+    "MFC5968": {
+      "code": "1400",
+      "kind": "membership-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "PC-2205": {
+      "code": "6450",
+      "kind": "small-tools-from-parts-vendor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "KLG8553": {
+      "code": "6710",
+      "kind": "legal",
+      "tags": []
+    },
+    "LDG2145": {
+      "code": "6300",
+      "kind": "software",
+      "tags": []
+    },
+    "CFC7011": {
+      "code": "7400",
+      "kind": "fuel",
+      "tags": []
+    },
+    "CC-5973": {
+      "code": "6410",
+      "kind": "equipment-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "FEB-SVC-7202": {
+      "code": "6900",
+      "kind": "bank-fees",
+      "tags": []
+    },
+    "RWE-2026-3688": {
+      "code": "1500",
+      "kind": "equipment",
+      "tags": [
+        "threshold"
+      ]
+    },
+    "OBC-2187": {
+      "code": "5150",
+      "kind": "bikes+freight",
+      "tags": [
+        "freight"
+      ]
+    },
+    "WB6756": {
+      "code": "6220",
+      "kind": "water",
+      "tags": []
+    },
+    "TT-PAY-4433": {
+      "code": "6300",
+      "kind": "software-from-card-processor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "MFPG-8379": {
+      "code": "6210",
+      "kind": "electricity",
+      "tags": []
+    },
+    "HMI7725": {
+      "code": "1400",
+      "kind": "insurance-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "RRC2406": {
+      "code": "6610",
+      "kind": "sponsorship",
+      "tags": []
+    },
+    "NWBRA-4111": {
+      "code": "7200",
+      "kind": "membership",
+      "tags": []
+    },
+    "FW-3428": {
+      "code": "6230",
+      "kind": "internet",
+      "tags": []
+    },
+    "PC-2233": {
+      "code": "5100",
+      "kind": "retail-lube",
+      "tags": [
+        "retail-pack"
+      ]
+    },
+    "YCF6295": {
+      "code": "7600",
+      "kind": "donation",
+      "tags": []
+    },
+    "TLP-8548": {
+      "code": "6100",
+      "kind": "rent",
+      "tags": []
+    },
+    "SWF2084": {
+      "code": "6550",
+      "kind": "carrier-outbound",
+      "tags": [
+        "outbound"
+      ]
+    },
+    "HMI7731": {
+      "code": "6800",
+      "kind": "insurance",
+      "tags": []
+    },
+    "LEH7939": {
+      "code": "6150",
+      "kind": "equipment-rental",
+      "tags": []
+    },
+    "BWE5270": {
+      "code": "6400",
+      "kind": "building-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "MPA-4191": {
+      "code": "6950",
+      "kind": "training-online",
+      "tags": [
+        "online-training"
+      ]
+    },
+    "QS-7505": {
+      "code": "6500",
+      "kind": "office",
+      "tags": []
+    },
+    "TT2351": {
+      "code": "6450",
+      "kind": "small-tools",
+      "tags": []
+    },
+    "RBS6686": {
+      "code": "1400",
+      "kind": "rent-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "SWF2099": {
+      "code": "5150",
+      "kind": "carrier-inbound-bikes",
+      "tags": [
+        "freight",
+        "carrier"
+      ]
+    },
+    "TT2359": {
+      "code": "6460",
+      "kind": "consumables",
+      "tags": [
+        "consumable"
+      ]
+    },
+    "FGM4123": {
+      "code": "6600",
+      "kind": "advertising",
+      "tags": []
+    },
+    "MFPG-8380": {
+      "code": "1300",
+      "kind": "deposit",
+      "tags": [
+        "deposit"
+      ]
+    },
+    "TRA-5324": {
+      "code": "7450",
+      "kind": "van-repair",
+      "tags": [
+        "repair"
+      ]
+    }
+  },
+  "batch-04": {
+    "NGD5288": {
+      "code": "5100",
+      "kind": "retail-lube",
+      "tags": [
+        "retail-pack"
+      ]
+    },
+    "TLP-8585": {
+      "code": "6100",
+      "kind": "rent",
+      "tags": []
+    },
+    "WWB2243": {
+      "code": "5300",
+      "kind": "outsourced-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "NGD5321": {
+      "code": "5200",
+      "kind": "apparel-from-parts-vendor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "MPA-4220": {
+      "code": "6950",
+      "kind": "training-online",
+      "tags": [
+        "online-training"
+      ]
+    },
+    "SWF2111": {
+      "code": "6550",
+      "kind": "carrier-outbound",
+      "tags": [
+        "outbound"
+      ]
+    },
+    "SPL-2108": {
+      "code": "6300",
+      "kind": "software",
+      "tags": []
+    },
+    "WWB2253": {
+      "code": "5300",
+      "kind": "outsourced-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "HMI7768": {
+      "code": "6800",
+      "kind": "insurance",
+      "tags": []
+    },
+    "YCF6322": {
+      "code": "7600",
+      "kind": "donation",
+      "tags": []
+    },
+    "RWE-2026-3713": {
+      "code": "1500",
+      "kind": "equipment",
+      "tags": [
+        "threshold"
+      ]
+    },
+    "MFPG-8413": {
+      "code": "1300",
+      "kind": "deposit",
+      "tags": [
+        "deposit"
+      ]
+    },
+    "TT2391": {
+      "code": "1500",
+      "kind": "equipment+freight",
+      "tags": [
+        "threshold",
+        "freight"
+      ]
+    },
+    "NGD5336": {
+      "code": "6460",
+      "kind": "consumables-from-parts-vendor",
+      "tags": [
+        "consumable",
+        "vendor"
+      ]
+    },
+    "FEB-SVC-7208": {
+      "code": "6900",
+      "kind": "bank-fees",
+      "tags": []
+    },
+    "FPD-7009": {
+      "code": "6400",
+      "kind": "building-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "SKY5829": {
+      "code": "7100",
+      "kind": "travel",
+      "tags": []
+    },
+    "WB6791": {
+      "code": "6220",
+      "kind": "water",
+      "tags": []
+    },
+    "PC-2256": {
+      "code": "6450",
+      "kind": "small-tools-from-parts-vendor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "RWE-2026-3718": {
+      "code": "6460",
+      "kind": "consumables",
+      "tags": [
+        "consumable"
+      ]
+    },
+    "MFC5988": {
+      "code": "1400",
+      "kind": "membership-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "CKB7865": {
+      "code": "7000",
+      "kind": "meals",
+      "tags": []
+    },
+    "SER-2797": {
+      "code": "6150",
+      "kind": "equipment-rental",
+      "tags": []
+    },
+    "TT-PAY-4447": {
+      "code": "6300",
+      "kind": "software-from-card-processor",
+      "tags": [
+        "vendor"
+      ]
+    },
+    "FGM4135": {
+      "code": "6600",
+      "kind": "advertising",
+      "tags": []
+    },
+    "RWE-2026-3737": {
+      "code": "6450",
+      "kind": "small-tools",
+      "tags": []
+    },
+    "CC-6004": {
+      "code": "6410",
+      "kind": "equipment-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "TRA-5361": {
+      "code": "7450",
+      "kind": "van-repair",
+      "tags": [
+        "repair"
+      ]
+    },
+    "AF-8803": {
+      "code": "6700",
+      "kind": "accounting",
+      "tags": []
+    },
+    "SWF2122": {
+      "code": "5100",
+      "kind": "carrier-inbound",
+      "tags": [
+        "freight",
+        "carrier"
+      ]
+    },
+    "RBS6697": {
+      "code": "1400",
+      "kind": "rent-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "RRC2443": {
+      "code": "6610",
+      "kind": "sponsorship",
+      "tags": []
+    },
+    "KLG8588": {
+      "code": "6710",
+      "kind": "legal",
+      "tags": []
+    },
+    "TT2407": {
+      "code": "1500",
+      "kind": "equipment-at-threshold",
+      "tags": [
+        "threshold",
+        "threshold-edge"
+      ]
+    },
+    "NWBRA-4146": {
+      "code": "7200",
+      "kind": "membership",
+      "tags": []
+    },
+    "FEB1629": {
+      "code": "5150",
+      "kind": "bikes+freight",
+      "tags": [
+        "freight"
+      ]
+    },
+    "RWE-2026-3750": {
+      "code": "6450",
+      "kind": "small-tools-qty-over-threshold",
+      "tags": [
+        "unit-price"
+      ]
+    },
+    "TWA-3853": {
+      "code": "5200",
+      "kind": "apparel",
+      "tags": []
+    },
+    "QS-7513": {
+      "code": "6500",
+      "kind": "office",
+      "tags": []
+    },
+    "CFC7039": {
+      "code": "7400",
+      "kind": "fuel",
+      "tags": []
+    },
+    "PC-2290": {
+      "code": "5100",
+      "kind": "parts+freight",
+      "tags": [
+        "freight"
+      ]
+    },
+    "PP-8298": {
+      "code": "5150",
+      "kind": "carrier-inbound-bikes",
+      "tags": [
+        "freight",
+        "carrier"
+      ]
+    },
+    "BW-8371": {
+      "code": "5100",
+      "kind": "parts",
+      "tags": []
+    },
+    "FEB1631": {
+      "code": "5150",
+      "kind": "bikes",
+      "tags": []
+    },
+    "BL-5014": {
+      "code": "7500",
+      "kind": "license",
+      "tags": []
+    },
+    "SPL-2122": {
+      "code": "6300",
+      "kind": "software-annual-ahead",
+      "tags": [
+        "prepaid",
+        "software-exception"
+      ]
+    },
+    "FW-3444": {
+      "code": "6230",
+      "kind": "internet",
+      "tags": []
+    },
+    "HMI7788": {
+      "code": "1400",
+      "kind": "insurance-prepaid",
+      "tags": [
+        "prepaid"
+      ]
+    },
+    "SCC-2669": {
+      "code": "7300",
+      "kind": "cleaning",
+      "tags": []
+    },
+    "MFPG-8441": {
+      "code": "6210",
+      "kind": "electricity",
+      "tags": []
+    }
+  }
+}
